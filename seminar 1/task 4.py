@@ -11,8 +11,8 @@
 n = int(input("Введите общее количество журавликов: "))
 
 
-petyaSeroja=n//4
-katya=n-petyaSeroja*2
+petyaSeroja=n//6
+katya=n//6*4
 
 
 print(f"Петя сделал {petyaSeroja} журавлей, Катя сделала {katya} журавлей, Сережа сделал {petyaSeroja} журавлей")
